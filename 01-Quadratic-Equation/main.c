@@ -26,8 +26,8 @@ int main(int argc, char** args)
    if(disc > 0.0)
     {
        printf("\t\t\tLos dos valores son reales");
-       x1=((-b+sqrt(disc))/(2.0*a));
-       x2=((-b-sqrt(disc))/(2.0*a));
+       x1 = ((-b + sqrt(disc)) / (2.0 * a));
+       x2 = ((-b - sqrt(disc)) / (2.0 * a));
        printf("\n\t\t\t x1=%.2f   x2=%.2f", x1, x2);
    }
    else

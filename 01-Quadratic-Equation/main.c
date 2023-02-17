@@ -4,6 +4,7 @@
 
 int main(int argc, char** args)
 {
+   // definition of variables of quadratic equation and discriminant
    float a, b, c, disc, x1, x2, xi, xr;
    
    printf("\n Solution of a Quadratic Equation \n");

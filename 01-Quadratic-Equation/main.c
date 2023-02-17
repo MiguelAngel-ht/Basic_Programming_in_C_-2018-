@@ -13,7 +13,7 @@ int main(int argc, char** args)
    
    while(a == 0)
     {
-         printf("\t\t El valor de a no puede ser 0 ingrese el valor de nuevo =");
+         printf("\t\t The value a don't be equall to zero, Please, writte another value =");
          scanf("%f", &a);
    }
    

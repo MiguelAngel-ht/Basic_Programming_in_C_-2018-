@@ -17,9 +17,9 @@ int main(int argc, char** args)
          scanf("%f", &a);
    }
    
-   printf("\t\t\t Escribe el valor de b = ");
+   printf("\t\t\t Write the value of b = ");
    scanf("%f", &b);
-   printf("\t\t\t Escribe el valor de c = ");
+   printf("\t\t\t Write the value of c = ");
    scanf("%f", &c);
    
    disc = pow(b, 2.0) - 4 * a * c;

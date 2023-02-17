@@ -36,14 +36,15 @@ int main(int argc, char** args)
        if(disc == 0.0)
        {
            x1 = (-b) / (2.0 * a);
-           printf("\n\t\t\t La ecuación sólo tiene un valor real %.2f", x1);
+           printf("\n\t\t\t The equation only have one solution  %.2f", x1);
        }
        else
        {
            xr = (-b / (2.0 * a));
            xi = (sqrt(-disc) / (2.0 * a));
-           printf("\n\t\t La raíz real es %.2f y la imaginaria es %.2f", xr, xi);
+           printf("\n\t\t The real solution is %.2f and the imaginary is %.2f", xr, xi);
        }
    }
+   
    printf("\n\n\t\t\t");
 }

@@ -7,7 +7,7 @@ int main(int argc, char** args)
    float a, b, c, disc, x1, x2, xi, xr;
    
    printf("\n Solution of a Quadratic Equation \n");
-   printf("\t\t\t Escribe el valor de a = ");
+   printf("\t\t\t Write the value of a = ");
    scanf("%f", &a);
    
    while(a == 0)

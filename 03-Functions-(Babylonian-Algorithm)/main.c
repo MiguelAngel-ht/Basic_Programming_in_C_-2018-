@@ -1,33 +1,20 @@
 #include <stdio.h>
 
-float calcular_raiz_cuadrada(float x)
+float calcular_raiz_cuadrada(float x){
+    
+    if(x < 0){
+     
+         x = x * (-1);
+    }
 
-{
+     float b = x;
 
+     while (b*b != x){
+      
+         b = .5*((x/b)+ b);
+     }
 
-if (x<0)
-
- {
-
-   x=x*(-1);
-
- }
-
- float b = x;
-
-
-
- while (b*b != x)
-
-  {
-
-
-     b = .5*((x/b)+ b);
-
-   }
-
-
-   return b;
+    return b;
 
 }
 

@@ -19,40 +19,28 @@ float calcular_raiz_cuadrada(float x){
 }
 
 
-int main()
+int main(){
 
-{
-
- float x,b;
+ float x, b;
 
  printf("Raiz cuadrada de un número \n");
 
  printf("Raíz x: ");
-    scanf("%f",&x);
+ scanf("%f", &x);
+
+ b = calcular_raiz_cuadrada(x);
 
 
-
-
-  b = calcular_raiz_cuadrada(x);
-
-
-if (x<0)
-
- {
-
-    printf("Raíz imaginaria: %.4f \n",b);
-
+ if( x < 0 ){
+    
+     printf("Raíz imaginaria: %.4f \n",b);
   }
+ else{
 
-else
-
-  {
-
-      printf("Raíz real: %.4f \n",b);
-
+     printf("Raíz real: %.4f \n",b);
   }
 
 
-  return 0;
+ return 0;
 
 }

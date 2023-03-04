@@ -77,26 +77,29 @@ for (i=0;i<n;i++)
 
 
 
-
+// Bubble Sort Algorithm
 void ordenburbuja (int arr[], int n)
 {
-    int i,j,aux;
-   for (i=0;i<n;i++)
+   int i, j, aux;
+	
+   for (i = 0; i < n; i++)
    {
-       arr[i]=rand()%1001-501;
+       arr[i] = rand() % 1001 - 501;
    }
 
-    for(i=1; i<n-1; i++)
+   for(i = 1; i < n-1; i++)
 	{
-		for(j=0; j<n-i; j++)
+		for(j = 0; j < n-i; j++)
 		{
-			if(arr[j]>arr[j+1])
+			if(arr[j] > arr[j+1])
 			{
-			    aux    = arr[j+1];
+			    	aux = arr[j+1];
 				arr[j+1] = arr[j];
-				arr[j]   = aux;
+				arr[j] = aux;
 			}
-	}	}
+		 }	
+    	 }
 
-        imprimirArreglo(arr,n);
-    }
+   imprimirArreglo(arr,n);
+   
+}

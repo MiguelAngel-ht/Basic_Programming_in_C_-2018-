@@ -51,27 +51,27 @@ void imprimirArreglo(int arr[], int n)
 
 void ordenarPorIntercambio(int arr[], int n)
 {
+   	int  aux, i;
 
-
-    int  aux, i;
-
-for (i=0;i<n;i++)
-   {
-       arr[i]=rand()%1001-501;
-   }
-    for(i=0; i<n-1; i++)
-        {
-        for(int j=i+1; j<n; j++)
-            {if(arr[i] > arr[j])
-              {
-            aux=arr[i];
-            arr[i] = arr[j];
-            arr[j] = aux;
-               }
-            }
+	for (i=0; i < n; i++)
+   	{
+       		arr[i] = rand() % 1001 - 501;
+   	}
+    	
+	for(i=0; i<n-1; i++)
+  	{
+        	for(int j=i+1; j<n; j++)
+            	{
+			if(arr[i] > arr[j])
+                	{
+  				aux = arr[i];
+            			arr[i] = arr[j];
+            			arr[j] = aux;
+               		}
+            	}
         }
 
-    imprimirArreglo(arr,n);
+    imprimirArreglo(arr, n);
 }
 
 

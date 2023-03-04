@@ -1,21 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+// Defining functions
 void ordenarPorIntercambio(int arr[], int n);
-
-void imprimirArreglo (int[], int);
-
-void ordenmientoburbuja (int[], int);
+void imprimirArreglo(int[], int);
+void ordenmientoburbuja(int[], int);
 
 
-
-
+// Main function
 int main()
 {
     int arr[100];
-    int n = sizeof(arr)/sizeof(int);
-    printf("El tamaño del arreglo es %d\n\n",n);
+    int n = sizeof(arr) / sizeof(int);
+    printf("El tamaÃ±o del arreglo es %d\n\n",n);
 
     printf("El  arreglo original es \n");
     imprimirArreglo(arr, n);

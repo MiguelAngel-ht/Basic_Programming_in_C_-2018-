@@ -13,16 +13,18 @@ int main()
     int *arr[n];
     int i;
     
+    // Random values saved in an array
     for (i = 0; i < n; i++)
     {
         arr[i] = rand() % 500;
     }
     
+    // Printing the array
     printf("El arreglo original es %d\n\n",n);
     imprimirArreglo(arr, n);
 
+    // Printing values sorted
     printf("El arreglo ordenado por ALGORITMO DE BURBUJA es \n");
-    
     ordenburbuja(arr, n);
     printf("\n");
     

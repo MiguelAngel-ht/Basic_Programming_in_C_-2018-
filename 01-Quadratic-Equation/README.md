@@ -4,7 +4,7 @@ This is a simple C program that calculates the square root of a quadratic equati
 
 ## Key Functions
 
-Below are the two most relevant functions in the code:
+Below is the main function divided in parts in the code:
 
 ### Main Function
 
